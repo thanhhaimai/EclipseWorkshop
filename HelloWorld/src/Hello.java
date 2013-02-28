@@ -14,7 +14,7 @@ public class Hello {
 	public static void doSomethingWrong(int number) {
 		System.out.print("aaa");
 		int a = 100 / number;
-		System.out.print("aaa");
+		System.out.print("aaa" + a);
 	}
 
 }
