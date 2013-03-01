@@ -2,12 +2,13 @@ import java.util.ArrayList;
 
 public class Hello {
 
-	ArrayList<Object> list = new ArrayList<Object>();
+	static ArrayList<Object> list = new ArrayList<Object>();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		doSomethingWrong(10);
-		doSomethingWrong(0);
+		for (int i = 10; i >= 10; i--) {
+			doSomethingWrong(i);
+		}
 
 	}
 
